@@ -1,0 +1,18 @@
+{
+  "request" : {
+    "urlPathPattern": "/test",
+    "method": "GET",
+    "headers": {
+      "test": {
+        "equalTo": "X1"
+      }
+    }
+  },
+  "response" : {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status" : 200,
+    "bodyFileName": "a1Response.json"
+  }
+}

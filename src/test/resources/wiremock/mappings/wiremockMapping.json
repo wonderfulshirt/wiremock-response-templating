@@ -1,0 +1,13 @@
+{
+  "request" : {
+    "urlPathPattern": "/test",
+    "method": "GET"
+  },
+  "response" : {
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "status" : 200,
+    "bodyFileName": "wiremockResponse.json"
+  }
+}
