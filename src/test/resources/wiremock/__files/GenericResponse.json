@@ -1,5 +1,5 @@
 {
   "suppliedValueIs": "{{request.headers.test}}",
   "yesterday": "{{now offset='-1 days' format='yyyy-MM-dd'}}",
-  "hardcodedResponse": false
+  "hardcodedResponse": "false"
 }
