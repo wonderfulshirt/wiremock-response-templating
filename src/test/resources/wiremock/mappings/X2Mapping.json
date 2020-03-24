@@ -13,6 +13,6 @@
       "Content-Type": "application/json"
     },
     "status" : 200,
-    "bodyFileName": "a1Response.json"
+    "bodyFileName": "X2Response.json"
   }
 }
