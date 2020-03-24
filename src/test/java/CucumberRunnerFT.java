@@ -6,6 +6,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
     plugin = {"json:target/json-report/cucumber.json"},
     glue = "com.wonderfulshirt.glue",
-    features = "src/test/resources/features",
+    features = "src/test/resources/features/",
     tags = "@demo")
 public final class CucumberRunnerFT {}
