@@ -1,7 +1,12 @@
 {
   "request" : {
     "urlPathPattern": "/test",
-    "method": "GET"
+    "method": "GET",
+    "headers": {
+      "test": {
+        "contains": "A"
+      }
+    }
   },
   "response" : {
     "headers": {
