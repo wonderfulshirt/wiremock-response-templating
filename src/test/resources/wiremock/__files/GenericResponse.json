@@ -1,5 +1,8 @@
 {
   "suppliedValueIs": "{{request.headers.test}}",
   "yesterday": "{{now offset='-1 days' format='yyyy-MM-dd'}}",
+  "today": "{{now format='yyyy-MM-dd'}}",
+  "tomorrow": "{{now offset='1 days' format='yyyy-MM-dd'}}",
+  "tenYearsAgoInDifferentFormat": "{{now offset='-10 years' format='dd-MM-yyyy'}}",
   "hardcodedResponse": "false"
 }
