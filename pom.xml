@@ -193,26 +193,6 @@
                             </execution>
                         </executions>
                     </plugin>
-
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-failsafe-plugin</artifactId>
-                        <configuration>
-                            <includes>
-                                <include>**/*FT.java</include>
-                            </includes>
-                            <parallel>none</parallel>
-                            <classesDirectory>${project.build.outputDirectory}</classesDirectory>
-                        </configuration>
-                        <executions>
-                            <execution>
-                                <goals>
-                                    <goal>integration-test</goal>
-                                    <goal>verify</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
                     <plugin>
                         <groupId>com.trivago.rta</groupId>
                         <artifactId>cluecumber-report-plugin</artifactId>
